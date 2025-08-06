@@ -1,3 +1,4 @@
+# Here are some of the questions 
 questions = [
     ["Who is Shah Rukh Khan?", "WWE Wrestler", "Plumber", "Actor", "Astronaut", 3],
     ["What is the capital of France?", "Berlin", "Paris", "Rome", "London", 2],
@@ -12,6 +13,7 @@ questions = [
     ["What is the smallest country in the world?", "San Marino", "Vatican City", "Monaco", "Liechtenstein", 2]
 ]
 
+#Respected prizes as per the questiions
 prizes = [10000, 20000, 30000, 50000, 100000, 500000, 900000, 1000000, 150000, 190000, 5000000]
 
 i = 0
@@ -27,4 +29,5 @@ for question in questions:
         print("You lost... Better luck next time!")
         break
     print(f"you won prize money of: {prizes[i]}")
+
     i += 1
